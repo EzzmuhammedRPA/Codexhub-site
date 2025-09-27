@@ -1,0 +1,60 @@
+<!doctype html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CodeX — GitHub و العمل الجماعي</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="site-header">
+<div class="container">
+<h1>CodeX</h1>
+<nav>
+<a href="index.html">Git</a>
+<a href="github.html">GitHub</a>
+</nav>
+</div>
+</header>
+
+
+<main class="container">
+<section>
+<h2>ايه هو GitHub؟</h2>
+<p>GitHub هو خدمة استضافة لمستودعات Git بتسهل العمل الجماعي، مراجعة الكود (Pull Requests)، إدارة القضايا (Issues)، وContinuous Integration. GitHub مش هو Git — هو بس المكان اللي بترفع عليه المستودعات علشان يشاركها فريقك أو العالم.</p>
+</section>
+
+
+<section>
+<h2>تدفق عمل شائع (Fork / PR)</h2>
+<ol>
+<li>اعمل Fork للمشروع لو مش عندك صلاحيات الكتابة.</li>
+<li>انسخ (clone) للمشروع على جهازك: <code>git clone &lt;repo-url&gt;</code></li>
+<li>اعمل فرع جديد: <code>git checkout -b feature/my-feature</code></li>
+<li>اعمل تغييرات، <code>git add</code>، <code>git commit</code> ثم <code>git push</code>.</li>
+<li>افتح Pull Request من الفرع بتاعك للمشروع الأصلي واطلب مراجعة.</li>
+</ol>
+</section>
+
+
+<section>
+<h2>نصايح للمبتدئين</h2>
+<ul>
+<li>اكتب رسائل Commit واضحة.</li>
+<li>استخدم فروع منفصلة لكل ميزة أو تصليح.</li>
+<li>اعمل Code Review قبل الدمج.</li>
+</ul>
+</section>
+
+
+<section class="cta">
+<a class="btn" href="index.html">ارجع لمقدمة Git</a>
+<a class="btn ghost" href="notes.txt" download>حمّل المذكرة (notes.txt)</a>
+</section>
+</main>
+
+
+<footer class="site-footer">
+<div class="container">© CodeX</div>
+</footer>
+</body>
+</html>
